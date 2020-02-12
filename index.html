@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>重庆大学民主湖论坛</title>
+    <style>
+        body {
+            text-align: center
+        }
+
+        #disqus {
+            margin: 0 auto;
+            width: 60%;
+        }
+    </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120208608-1"></script>
     <script>
@@ -18,10 +28,35 @@
     </script>
 </head>
 <body>
-<div style="text-align: center;margin-top: 200px;">
+<div style="text-align: center;margin-top: 100px;margin-bottom: 100px">
     <h1>公告</h1>
     <h3>由于民主湖外网论坛被不明流量攻击，我们正努力恢复中，感谢大家随时关注我们动态</h3>
-    <h3>校友也可联系管理员邮箱 admin@cqumzh.net 献言献策</h3>
+    <h3>校友可联系管理员邮箱 admin@cqumzh.net 献言献策，也可在下方评论框留言</h3>
 </div>
+<div id="disqus" style="width: 60%;text-align: center">
+    <div id="disqus_thread"></div>
+</div>
+
+<script>
+
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://cqumzh.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+    Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//cqumzh.disqus.com/count.js" async></script>
 </body>
 </html>
